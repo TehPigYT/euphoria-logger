@@ -1,15 +1,19 @@
 # Documentation - Colors Class
 
 ### `new Colors()`
+
 Provides the ability to use ANSI color codes anywhere in your code simple and fast.
 
 ### `<Colors>.list`
+
 Provides the list of all the available colors and formats available.
 
 ### `<Colors>.applyColor(color, text)`
+
 Applies a specified color format to the given text.
 
 **Parameters**
+
 - `color` (String): The color format to use.
 - `text` (String): The text to format.
 
