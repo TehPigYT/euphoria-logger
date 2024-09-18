@@ -31,10 +31,10 @@ You can install `euphoria-logger` using your preferred package manager:
 
 | Package Manager | Command                          |
 |-----------------|----------------------------------|
-| **npm**         | `npm install euphoria-logger`    |
-| **pnpm**        | `pnpm install euphoria-logger`   |
-| **yarn**        | `yarn add euphoria-logger`       |
-| **bun**         | `bun add euphoria-logger`        |
+| **npm** - ![NPM](https://img.shields.io/badge/npm-CB3837?logo=npm)       | `npm install euphoria-logger`    |
+| **pnpm** - ![PNPM](https://img.shields.io/badge/pnpm-F69220?logo=pnpm)       | `pnpm install euphoria-logger`   |
+| **yarn** - ![Yarn](https://img.shields.io/badge/Yarn-2C8EBB?logo=yarn&logoColor=fff)       | `yarn add euphoria-logger`       |
+| **bun** - ![Bun](https://img.shields.io/badge/Bun-000?logo=bun&logoColor=fff)         | `bun add euphoria-logger`        |
 
 ## Usage
 
