@@ -1,0 +1,23 @@
+{
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          },
+          "modules": "commonjs" // Ensure Babel transpiles to CommonJS
+        }
+      ]
+    ],
+    "plugins": [
+      [
+        "babel-plugin-transform-rewrite-imports",
+        {
+          "replaceExtensions": { ".js": ".cjs" }
+        }
+      ],
+      "@babel/plugin-transform-modules-commonjs"
+    ]
+  }
+  
