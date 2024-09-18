@@ -43,7 +43,7 @@ Removes all the [Logger](https://github.com/TehPigYT/euphoria-logger/blob/master
 
 ---
 
-### `<LogManager.loggers>`
+### `<LogManager>.loggers`
 
 Returns all the [Logger](https://github.com/TehPigYT/euphoria-logger/blob/master/docs/Logger.md) instances stored in cache.
 
