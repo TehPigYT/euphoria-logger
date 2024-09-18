@@ -11,3 +11,5 @@ Provides an instance of the Discord webhook.
   - `token` (String): Discord webhook token.
   - `level` (String, optional): The minimum level of output to log.
   - `types` (Array, optional): The types of output to log.
+
+---

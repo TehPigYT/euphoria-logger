@@ -10,3 +10,5 @@ Provides an instance of the Slack webhook.
 - `options` (Object): The configuration options
   - `level` (String, optional): The minimum level of output to log.
   - `types` (Array, optional): The types of output to log.
+
+---

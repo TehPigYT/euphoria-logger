@@ -41,6 +41,8 @@ logger.endMeasure("test");
 logger.info("Hello world");
 ```
 
+---
+
 ### `<Logger>.log(type, message, show_memory)`
 
 Logs a message at the specified type.
@@ -51,6 +53,8 @@ Logs a message at the specified type.
 - `message` (String): The message to log.
 - `show_memory` (Boolean, optional): Shows the application memory usage
 
+---
+
 ### `<Logger>.measure(name)`
 
 Starts measuring the execution time of the set timer with the given name.
@@ -58,6 +62,8 @@ Starts measuring the execution time of the set timer with the given name.
 **Parameters**
 
 - `name` (String): The name of the measured timer.
+
+---
 
 ### `<Logger>.endMeasure(name)`
 
@@ -67,7 +73,7 @@ End the measurement of the execution time of the set timer with the given name.
 
 - `name` (String): The name of the measured timer.
 
-<br>
+---
 
 ## Helper Methods
 
@@ -82,6 +88,8 @@ If the info type exists, it will log in an info level message.
 - `message` (String): The message to log.
 - `show_memory` (Boolean, optional): Shows the application memory usage
 
+---
+
 ### `<Logger>.success(message, show_memory)`
 
 If the success type exists, it will log in a success level message.
@@ -90,6 +98,8 @@ If the success type exists, it will log in a success level message.
 
 - `message` (String): The message to log.
 - `show_memory` (Boolean, optional): Shows the application memory usage
+
+---
 
 ### `<Logger>.warn(message, show_memory)`
 
@@ -100,6 +110,8 @@ If the warn type exists, it will log in a warn level message.
 - `message` (String): The message to log.
 - `show_memory` (Boolean, optional): Shows the application memory usage
 
+---
+
 ### `<Logger>.debug(message, show_memory)`
 
 If the debug type exists, it will log in a debug level message.
@@ -109,6 +121,8 @@ If the debug type exists, it will log in a debug level message.
 - `message` (String): The message to log.
 - `show_memory` (Boolean, optional): Shows the application memory usage
 
+---
+
 ### `<Logger>.error(message, show_memory)`
 
 If the error type exists, it will log in an error level message.
@@ -117,3 +131,5 @@ If the error type exists, it will log in an error level message.
 
 - `message` (String): The message to log.
 - `show_memory` (Boolean, optional): Shows the application memory usage
+
+---

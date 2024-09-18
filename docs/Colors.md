@@ -4,9 +4,13 @@
 
 Provides the ability to use ANSI color codes anywhere in your code simple and fast.
 
+---
+
 ### `<Colors>.list`
 
 Provides the list of all the available colors and formats available.
+
+---
 
 ### `<Colors>.applyColor(color, text)`
 
@@ -30,3 +34,5 @@ colors.yellow; // yellow
 colors.bgWhite; // bgWhite
 // ... and so on
 ```
+
+---
