@@ -1,1 +1,0 @@
-# - Add check for custom paths
