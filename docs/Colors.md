@@ -18,14 +18,14 @@ Applies a specified color format to the given text.
 
 **Parameters**
 
-- `color` (String): The color format to use.
-- `text` (String): The text to format.
+-   `color` (String): The color format to use.
+-   `text` (String): The text to format.
 
 > [!NOTE]
 > Every available color can also be specified as a method as in the example below for more overall customizability on text.
 
 ```js
-import { Colors } from "euphoria-logger";
+import { Colors } from 'euphoria-logger';
 const colors = new Colors();
 
 colors.red; // red

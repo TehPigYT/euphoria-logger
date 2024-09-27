@@ -1,45 +1,45 @@
 name: Feature Request
 description: Suggest an idea for this project
-labels: ["feature request", "pending", "not considered"]
-title: "[Feature Request]: "
+labels: ['feature request', 'pending', 'not considered']
+title: '[Feature Request]: '
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thank you for taking the time to submit a feature request! Please fill out the sections below to help us understand your suggestion better.
+    - type: markdown
+      attributes:
+          value: |
+              Thank you for taking the time to submit a feature request! Please fill out the sections below to help us understand your suggestion better.
 
-  - type: textarea
-    id: feature_description
-    attributes:
-      label: Feature Description
-      description: A clear and concise description of the feature you want to implement.
-      placeholder: "The methods will be able to do some amazing things..."
-    validations:
-      required: true
+    - type: textarea
+      id: feature_description
+      attributes:
+          label: Feature Description
+          description: A clear and concise description of the feature you want to implement.
+          placeholder: 'The methods will be able to do some amazing things...'
+      validations:
+          required: true
 
-  - type: textarea
-    id: alternatives
-    attributes:
-      label: Alternative Solutions
-      description: Are there any other solutions you have considered?
-      placeholder: "Alternative 1..., Alternative 2..., etc."
-  
-  - type: textarea
-    id: additional_context
-    attributes:
-      label: Additional Context
-      description: Provide any other context, screenshots, or files that help us understand your feature request.
-      placeholder: "Attach screenshots, logs, or any other relevant information here."
+    - type: textarea
+      id: alternatives
+      attributes:
+          label: Alternative Solutions
+          description: Are there any other solutions you have considered?
+          placeholder: 'Alternative 1..., Alternative 2..., etc.'
 
-  - type: dropdown
-    id: priority
-    attributes:
-      label: Priority
-      description: How important is this feature to your workflow or project?
-      options:
-        - Low
-        - Medium
-        - High
-        - Critical
-    validations:
-      required: true
+    - type: textarea
+      id: additional_context
+      attributes:
+          label: Additional Context
+          description: Provide any other context, screenshots, or files that help us understand your feature request.
+          placeholder: 'Attach screenshots, logs, or any other relevant information here.'
+
+    - type: dropdown
+      id: priority
+      attributes:
+          label: Priority
+          description: How important is this feature to your workflow or project?
+          options:
+              - Low
+              - Medium
+              - High
+              - Critical
+      validations:
+          required: true

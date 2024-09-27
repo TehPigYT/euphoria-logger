@@ -12,8 +12,8 @@ Creates a [Logger](https://github.com/TehPigYT/euphoria-logger/blob/master/docs/
 
 **Parameters**
 
-- `name` (String): The name of the Logger instance.
-- `options` (Object, optional): The options of the Logger instance.
+-   `name` (String): The name of the Logger instance.
+-   `options` (Object, optional): The options of the Logger instance.
 
 ---
 
@@ -23,7 +23,7 @@ Retrieves a [Logger](https://github.com/TehPigYT/euphoria-logger/blob/master/doc
 
 **Parameters**
 
-- `name` (String): The name of the Logger instance
+-   `name` (String): The name of the Logger instance
 
 ---
 
@@ -33,7 +33,7 @@ The [Logger](https://github.com/TehPigYT/euphoria-logger/blob/master/docs/Logger
 
 **Parameters**
 
-- `name` (String): The name of the Logger instance
+-   `name` (String): The name of the Logger instance
 
 ---
 
