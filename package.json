@@ -13,7 +13,9 @@
     "@babel/core": "^7.14.6",
     "@babel/plugin-transform-modules-commonjs": "^7.24.8",
     "@babel/preset-env": "^7.14.7",
-    "babel-plugin-transform-rewrite-imports": "^1.2.0"
+    "babel-plugin-transform-rewrite-imports": "^1.2.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2"
   },
   "engines": {
     "node": ">=14.0.0"
