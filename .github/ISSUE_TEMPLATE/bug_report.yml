@@ -1,6 +1,7 @@
 name: Bug Report
 description: Report an issue or bug in this project
 labels: ["bug", "pending", "not confirmed"]
+title: "[Bug Report]: "
 body:
   - type: markdown
     attributes:
