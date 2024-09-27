@@ -1,0 +1,73 @@
+name: Bug Report
+description: Report an issue or bug in this project
+labels: ["bug", "pending", "not confirmed"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to submit a bug report! Please fill out the sections below to help us understand the issue better.
+
+  - type: textarea
+    id: bug_description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of the bug or issue.
+      placeholder: "The Logger does not work upon trying to use this feature..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: The steps needed to reproduce the bug. Please include as much detail as possible.
+      placeholder: "1. Go to..., 2. Click on..., 3. See error"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected Behavior
+      description: A clear and concise description of what you expected to happen.
+      placeholder: "I expected the application to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: Actual Behavior
+      description: Describe what actually happened, and how it differs from the expected behavior.
+      placeholder: "Instead, the application did..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Provide your node.js version and operating system.
+      placeholder: "OS: Ubuntu 20.04, Node.js: v20.17.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context
+      description: Provide any other context, screenshots, or logs that can help us understand and resolve the issue.
+      placeholder: "Attach screenshots, error logs, or any other relevant information here."
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How critical is this bug to your workflow or project?
+      options:
+        - Low
+        - Medium
+        - High
+        - Critical
+    validations:
+      required: true
