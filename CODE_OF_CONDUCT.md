@@ -8,19 +8,19 @@ The project is committed to providing an welcoming, safe, and inclusive space fo
 
 We expect all participants to be capable of engaging in the following:
 
-- **Be Respectful**: Respect every individual regardless of their backgrounds or opinions.
-- **Be Inclusive**: Be a welcoming open community member.
-- **Be Constructive**: Provide constructive feedback and healthy discussions.
-- **Be Professional:** Provide professionalism in all communications and interactions.
+-   **Be Respectful**: Respect every individual regardless of their backgrounds or opinions.
+-   **Be Inclusive**: Be a welcoming open community member.
+-   **Be Constructive**: Provide constructive feedback and healthy discussions.
+-   **Be Professional:** Provide professionalism in all communications and interactions.
 
 ## Unacceptable Behavior
 
 The following are examples of behaviors that are unacceptable:
 
-- Any form of harassment or intimidation including, but not limited to any kinds of offensive comments.
-- Personal attacks, trolling, or put downs.
-- Disruption of discussions, creating unneeded bug reports or non-actual feature requests and impractical pull requests. 
-Other behaviors which are considered unprofessional in a business environment.
+-   Any form of harassment or intimidation including, but not limited to any kinds of offensive comments.
+-   Personal attacks, trolling, or put downs.
+-   Disruption of discussions, creating unneeded bug reports or non-actual feature requests and impractical pull requests.
+    Other behaviors which are considered unprofessional in a business environment.
 
 ## Reporting Issues
 
