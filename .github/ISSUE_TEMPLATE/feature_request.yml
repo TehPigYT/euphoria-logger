@@ -7,16 +7,6 @@ body:
       value: |
         Thank you for taking the time to submit a feature request! Please fill out the sections below to help us understand your suggestion better.
 
-  - type: input
-    id: feature_title
-    attributes:
-      label: Feature Title
-      description: Provide a short and descriptive title for your feature request.
-      placeholder: "Add new methods to the Logger class."
-    validations:
-      required: true
-      maxLength: 100
-
   - type: textarea
     id: feature_description
     attributes:
