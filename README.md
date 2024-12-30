@@ -55,7 +55,7 @@ const logger = new Logger();
 To view the documentation, check out the [docs](https://github.com/TehPigYT/euphoria-logger/tree/master/docs) folder.
 
 ## Contributing
-
+Ready to contribute to the project? Check out [CONTRIBUTING.md](https://github.com/TehPigYT/euphoria-logger/blob/master/CONTRIBUTING.md)
 
 ## License
 This package is licensed under the `AGPL-3.0` license. See the [LICENSE](https://github.com/TehPigYT/euphoria-logger/blob/master/LICENSE) file for more information.
